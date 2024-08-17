@@ -1,0 +1,7 @@
+.toggle-switch:hover .handle {
+    background-color: #f0f0f0;
+  }
+
+  .toggle-switch:active .handle {
+    transform: scale(0.95);
+  }
