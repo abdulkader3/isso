@@ -10,8 +10,10 @@ function App() {
     createRoutesFromElements(
       <Route>
         
-        <Route path='/' element={<LeyaOutOne/>}/>
-        <Route index element={<Home/>}/>
+        <Route path='/' element={<LeyaOutOne/>}>
+          <Route index element={<Home/>}/>
+
+        </Route>
       </Route>
     )
   )
